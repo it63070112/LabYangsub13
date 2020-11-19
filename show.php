@@ -4,8 +4,7 @@
 </head>
 <body>
 <?php
-$conn = mysqli_init();
-mysqli_real_connect($conn, 'pps21.mysql.database.azure.com', 'pps21@pps21', '0912314633zaza#', 'itflab', 3306);
+$conn = mysqli_init();mysqli_real_connect($conn, 'labnew13.mysql.database.azure.com', 'pps@labnew13', 'Pornpaisan12', 'ITFLab', 3306);
 if (mysqli_connect_errno($conn))
 {
     die('Failed to connect to MySQL: '.mysqli_connect_error());
