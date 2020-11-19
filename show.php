@@ -23,11 +23,11 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
     <div class="form">
         <p class="ex1"><h1><center>;-;FORM;-;</center></h1></p>
     </div>
-  <table width="600" border="1" class="table table-dark table-striped" class="center" class="ex1">
+  <table width="750" border="1" class="table table-dark table-striped" class="center" class="ex1">
     <tr class="info">
       <th width="200"> <div align="center">Name</div></th>
       <th width="350"> <div align="center">Comment </div></th>
-      <th width="50"> <div align="center">Action</div></th>
+      <th width="150"> <div align="center">Action</div></th>
     </tr>
   <?php
   while($Result = mysqli_fetch_array($res))
